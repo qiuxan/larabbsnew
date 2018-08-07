@@ -164,6 +164,9 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        App\Providers\EasySmsServiceProvider::class,
+
+
         /*
          * Package Service Providers...
          */
